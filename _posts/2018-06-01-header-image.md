@@ -1,6 +1,6 @@
 ---
 title: Post with Header Image
-tags: TeXt
+tags: 第一篇博客
 article_header:
   type: cover
   image:
