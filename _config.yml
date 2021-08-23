@@ -120,6 +120,10 @@ sharing:
 comments:
   provider: livere # false (default), "disqus", "gitalk", "valine", "custom"
 
+  ## livere
+  livere:
+    shortname: hoult14
+  
   ## Disqus
   disqus:
     shortname: # the Disqus shortname for the site
@@ -143,9 +147,7 @@ comments:
     visitor     : # false (default)
     meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
-  ## livere
-  livere:
-    shortname: hoult14
+
 
 
 ## => Pageview
