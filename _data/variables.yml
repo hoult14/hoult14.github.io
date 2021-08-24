@@ -7,12 +7,12 @@ default:
     home: /
     archive:  /archive.html
     rss:  /feed.xml
-  mathjax: false
-  mathjax_autoNumber: false
-  mermaid: false
-  chart: false
+  mathjax: true
+  mathjax_autoNumber: true
+  mermaid: true
+  chart: true
   toc:
-    selectors: 'h1,h2,h3'
+    selectors: 'h1,h2,h3,h4'
   sources: bootcdn
 
   page:
@@ -33,10 +33,10 @@ default:
     show_author_profile: false
     show_subscribe: false
     full_width: false
-    sharing: false
+    sharing: true
     comment: false
     license: false
-    pageview: false
+    pageview:   true
     search: default
 
 sources:
